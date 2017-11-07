@@ -27,6 +27,5 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  [kittens..., name]
-  return kittens
+  [...kittens, name]
 }
